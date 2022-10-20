@@ -26,9 +26,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
-            theme: ThemeData(accentColor: mainColor,
-                primaryColor: mainColor ,
-                fontFamily:checkDirection(dirArabic: "Almarai" , dirEnglish: "LibreBasker")),
+            theme: ThemeData(primaryColor: mainColor ,
+                fontFamily:checkDirection(dirArabic: "Almarai" , dirEnglish: "LibreBasker"), colorScheme: ColorScheme.fromSwatch().copyWith(secondary: mainColor)),
             title: 'HUDO Centre ',
 //            theme: AppTheme.lightTheme,
             home: const SplashScreen(),

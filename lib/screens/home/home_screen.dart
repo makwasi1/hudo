@@ -1,5 +1,4 @@
 import 'package:hudo/screens/home/widget/top_slider.dart';
-import 'package:hudo/utils/check_direction.dart';
 import 'package:hudo/utils/file_export.dart';
 
 

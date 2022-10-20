@@ -1,6 +1,4 @@
 import 'dart:async';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:hudo/custom_widgets/custom_description_text.dart';
 import 'package:hudo/custom_widgets/responsive_sized_box.dart';

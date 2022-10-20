@@ -1,6 +1,5 @@
 import 'package:hudo/custom_widgets/custom_description_text.dart';
 import 'package:hudo/custom_widgets/responsive_sized_box.dart';
-import 'package:hudo/utils/check_direction.dart';
 import 'package:hudo/utils/file_export.dart';
 import 'package:localize_and_translate/localize_and_translate.dart';
 // import 'package:dio/dio.dart';

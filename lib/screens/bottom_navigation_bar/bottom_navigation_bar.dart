@@ -2,7 +2,6 @@ import 'package:hudo/screens/home/home_screen.dart';
 import 'package:hudo/screens/saved_articles/saved_articles.dart';
 import 'package:hudo/settings/settings.dart';
 
-import 'package:hudo/utils/check_direction.dart';
 import 'package:hudo/utils/file_export.dart';
 
 class BottomNavigationBarForTheApp extends StatefulWidget {
@@ -94,18 +93,18 @@ class _BottomNavigationBarForTheAppState extends State<BottomNavigationBarForThe
 
                       icon: Icon(Icons.home_outlined , color: greyColor ) ,
 
-                      title: Text("Home")),
+                      label: "Home"),
                   BottomNavigationBarItem(
                       activeIcon: Icon(Icons.bookmark , ),
 
                       icon: Icon(Icons.bookmark_border , color: greyColor ) ,
 
-                      title: Text("Saved Articles")), BottomNavigationBarItem(
+                      label: "Saved Articles"), BottomNavigationBarItem(
                       activeIcon: Icon(Icons.settings , ),
 
                       icon: Icon(Icons.settings_outlined , color: greyColor ) ,
 
-                      title: Text("Settings" )),
+                      label: "Settings"),
 
                 ],
               ),
