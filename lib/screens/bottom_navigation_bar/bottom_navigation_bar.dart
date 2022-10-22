@@ -2,6 +2,7 @@ import 'package:hudo/screens/home/home_screen.dart';
 import 'package:hudo/screens/saved_articles/saved_articles.dart';
 import 'package:hudo/settings/settings.dart';
 
+import 'package:hudo/utils/check_direction.dart';
 import 'package:hudo/utils/file_export.dart';
 
 class BottomNavigationBarForTheApp extends StatefulWidget {
@@ -104,7 +105,7 @@ class _BottomNavigationBarForTheAppState extends State<BottomNavigationBarForThe
 
                       icon: Icon(Icons.settings_outlined , color: greyColor ) ,
 
-                      label: "Settings"),
+                      label: "Settings" ),
 
                 ],
               ),
