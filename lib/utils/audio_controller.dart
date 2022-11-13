@@ -127,21 +127,19 @@ class _FloatingAudioPlayerState extends State<FloatingAudioPlayer> {
     //get index of clicked item
     var assetPath = '';
 
-    if(widget.lang == 'English') {
-      assetPath = 'assets/sound/English${widget.index+1}.mpeg';
-    } else if(widget.lang == "arabic"){
-      assetPath = 'assets/sound/arabic${widget.index+1}.mp3';
-    } else if(widget.lang == "uduk"){
-      assetPath = 'assets/sound/UArticle${widget.index+1}.mp3';
-    } else if(widget.lang == "moro"){
-      assetPath = 'assets/sound/MORO${widget.index+1}.mp3';
-    } else if(widget.lang == 'fur'){
-      assetPath = 'assets/sound/FArticle${widget.index+1}.mpeg';
+    if (widget.lang == 'English') {
+      assetPath = 'assets/sound/English${widget.index + 1}.mp3';
+    } else if (widget.lang == "arabic") {
+      assetPath = 'assets/sound/arabic${widget.index + 1}.mp3';
+    } else if (widget.lang == "uduk") {
+      assetPath = 'assets/sound/UArticle${widget.index + 1}.mp3';
+    } else if (widget.lang == "moro") {
+      assetPath = 'assets/sound/MORO${widget.index + 1}.mp3';
+    } else if (widget.lang == 'fur') {
+      assetPath = 'assets/sound/FArticle${widget.index + 1}.mp3';
     }
 
-
     final duration = await _audioPlayer.setAsset(assetPath);
-
 
     setState(() {
       _duration = duration;
