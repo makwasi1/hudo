@@ -128,7 +128,7 @@ class _FloatingAudioPlayerState extends State<FloatingAudioPlayer> {
     var assetPath = '';
 
     if(widget.lang == 'English') {
-      assetPath = 'assets/sound/English${widget.index+1}.mpeg';
+      assetPath = 'assets/sound/English${widget.index+1}.mp3';
     } else if(widget.lang == "arabic"){
       assetPath = 'assets/sound/arabic${widget.index+1}.mp3';
     } else if(widget.lang == "uduk"){
@@ -136,7 +136,7 @@ class _FloatingAudioPlayerState extends State<FloatingAudioPlayer> {
     } else if(widget.lang == "moro"){
       assetPath = 'assets/sound/MORO${widget.index+1}.mp3';
     } else if(widget.lang == 'fur'){
-      assetPath = 'assets/sound/FArticle${widget.index+1}.mpeg';
+      assetPath = 'assets/sound/FArticle${widget.index+1}.mp3';
     }
 
 
