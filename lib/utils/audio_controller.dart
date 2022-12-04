@@ -137,6 +137,10 @@ class _FloatingAudioPlayerState extends State<FloatingAudioPlayer> {
       assetPath = 'assets/sound/MORO${widget.index+1}.mp3';
     } else if(widget.lang == 'fur'){
       assetPath = 'assets/sound/FArticle${widget.index+1}.mp3';
+    } else if(widget.lang == 'masallet'){
+      assetPath = 'assets/sound/Bira${widget.index+1}.mp3';
+    } else if(widget.lang == 'lumun'){
+      assetPath = 'assets/sound/Lumun${widget.index+1}.mp3';
     }
 
 

@@ -111,34 +111,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         ),
                         responsiveSizedBox(
                             context: context, percentageOfHeight: .03),
-                        responsiveSizedBox(
-                            context: context, percentageOfHeight: .03),
-                        singleSettingsRow(
-                            context: context,
-                            iconData: Icons.language_outlined,
-                            text: "Change Language",
-                            onTaoIcon: () {
-                              // customAnimatedPushNavigation(
-                              //     context, ChangeLanguage());
-                            }),
-                        responsiveSizedBox(
-                            context: context, percentageOfHeight: .03),
                         singleSettingsRow(
                             context: context,
                             iconData: Icons.share_outlined,
                             text: "Share The App",
                             onTaoIcon: () {
                               share();
-                            }),
-                        responsiveSizedBox(
-                            context: context, percentageOfHeight: .03),
-                        singleSettingsRow(
-                            context: context,
-                            iconData: Icons.error_outline,
-                            text: "About Hudo",
-                            onTaoIcon: () {
-                              // customAnimatedPushNavigation(
-                              //     context, AboutUsScreen(aboutEn: aboutHudo_en , aboutAr: aboutHudo_ar));
                             }),
                         responsiveSizedBox(
                             context: context, percentageOfHeight: .03),
